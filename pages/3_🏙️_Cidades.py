@@ -246,7 +246,7 @@ with st.container():
                  category_orders={"city": df_aux["city"].tolist()})  # mantém ordem do df_aux
     
     fig.update_layout(
-        title="Top 10 Cidades com mais maior número de culinárias distintas",
+        title="Top 10 Cidades com maior número de culinárias distintas",
         title_x=0.3,  # centraliza o título
         xaxis_title="Cidade",
         yaxis_title="Tipo distintos de culinárias",
